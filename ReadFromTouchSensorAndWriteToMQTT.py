@@ -30,7 +30,7 @@ class GetDataAndSendToCloud():
      
         while True:
             Sensor.ReadDataFromMCU()
-            time.sleep(0.5)
+            time.sleep(0.1)
 
         
 
